@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "reallyworldautoreconnect",
+  "version": "1.0.0",
+  "name": "ReallyWorld AutoReconnect",
+  "description": "Автоматическая команда и реконнект каждые N минут",
+  "authors": ["YourName"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.reallyworldautoreconnect.ReallyWorldAutoReconnect"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
